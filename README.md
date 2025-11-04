@@ -16,3 +16,17 @@ Open http://127.0.0.1:8000
 pytest -q --cov=app --cov-report=term-missing --cov-fail-under=100
 pytest -q -m e2e
 ```
+Pg admin setup 
+
+General
+
+Name: Local Postgres (any label you like)
+Connection
+Host name/address: db (Docker service name; use localhost if you’re connecting to a local Postgres outside Compose)\
+Port: 5432
+Maintenance database: postgres
+Username: postgres
+Password: postgres
+
+SSL
+SSL mode: Prefer (default) or Disable for local dev with no TLS

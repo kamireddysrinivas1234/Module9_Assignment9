@@ -16,6 +16,9 @@ Open http://127.0.0.1:8000
 pytest -q --cov=app --cov-report=term-missing --cov-fail-under=100
 pytest -q -m e2e
 ```
+
+Open http://localhost:5050
+
 Pg admin setup 
 
 General

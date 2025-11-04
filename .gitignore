@@ -1,0 +1,10 @@
+
+.vscode/
+.venv/
+__pycache__/
+*.pyc
+dist/
+.playwright/
+pytest_cache/
+coverage.xml
+.env

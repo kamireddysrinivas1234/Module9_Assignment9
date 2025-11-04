@@ -1,0 +1,13 @@
+
+<!doctype html><html><head><meta charset="utf-8"/><title>FastAPI Calculator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<style>body{font-family:system-ui,Arial,sans-serif;margin:2rem}.card{max-width:520px;padding:1rem;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,.1)}input,select,button{padding:.6rem;font-size:1rem;margin:.3rem 0;width:100%}.row{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}.muted{color:#666;font-size:.9rem}</style>
+</head><body>
+<div class="card"><h2>FastAPI Calculator</h2>
+  <div class="row"><input id="a" type="number" step="any" placeholder="First number">
+  <input id="b" type="number" step="any" placeholder="Second number"></div>
+  <select id="op"><option value="add">Add (+)</option><option value="sub">Subtract (−)</option>
+  <option value="mul">Multiply (×)</option><option value="div">Divide (÷)</option></select>
+  <button id="btn">Calculate</button>
+  <p class="muted">Result: <strong id="result">—</strong></p><p class="muted">API: POST <code>/api/calc</code></p>
+</div><script src="/static/app.js"></script></body></html>
